@@ -10,7 +10,7 @@ Manage-User es una aplicación Spring Boot diseñada para la gestión de usuario
 ## Configuración
 La aplicación utiliza H2, un sistema de gestión de bases de datos en memoria, ideal para pruebas y desarrollo. Las configuraciones relevantes, incluyendo las de JWT y H2, están definidas en `src/main/resources/application.properties`.
 
-##Script de Inicialización de la Base de Datos
+## Script de Inicialización de la Base de Datos
 El archivo schema.sql (src/main/resources/schema.sql) contiene los scripts SQL para la creación inicial de las tablas users y phones en la base de datos. Este script configura la siguiente estructura:
 
 Tabla users: contiene campos para el id, nombre, email, contraseña, token, fechas de creación, modificación y último inicio de sesión, y un indicador de actividad.
